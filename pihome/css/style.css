@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+margin: 0px;
+padding: 0px;
+font-size: 12px;
+color: #565656;
+font-family:Arial, Helvetica, sans-serif;
+background-image:url("../images/bg.png");
+background-repeat: repeat;
+/*background-color: #f1f1f1;*/
+}
+
+#nav{
+background-color: #ffffff;
+border-bottom: 1px solid #d3d3d3;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 2px;
+box-shadow: rgba(0,0,0, 0.3) 0px 0px 5px;
+-moz-box-shadow: rgba(0,0,0, 0.3) 0px 0px 5px;
+-webkit-box-shadow: rgba(0,0,0, 0.3) 0px 0px 5px;
+}
+
+#nav #home{
+padding-right: 5px;
+}
+
+#nav img{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+#page{
+margin: auto;
+margin-top: 15px;
+width: 93%;
+border: 1px solid #d3d3d3;
+background-color: #FFFFFF;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 8px;
+box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-moz-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-webkit-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+}
+
+h1{ font-size: 22px; color: #565656; }
+
+#logo{
+text-align: center;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+#lights{
+width: 100%;
+}
+
+#lights ul{
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+#lights ul li{
+list-style: none;
+width: 100%;
+height: 40px;
+border-bottom: 1px solid #c0c0c0;
+padding-top: 15px;
+padding-bottom: 8px;
+text-align: center;
+font-size: 22px;
+}
+
+
+
+.light{
+margin: auto;
+width: 100%;
+}
+
+.lamp{
+float: left;
+width: 20%;
+}
+
+.name{
+float: left;
+width: 39%;
+text-align: left;
+font-size: 16px;
+}
+
+.name .device{ font-size: 16px; padding: 0px; margin: 0px; }
+.name .room{ font-size: 12px; padding: 0px; margin: 0px; }
+
+.btn{
+float: left;
+width: 41%;
+text-align: right;
+}
+
+.btn span{
+margin-right: 10px;
+}
+
+.btn span a{
+margin: 0px;
+padding: 0px;
+}
+
+.clear{
+clear: left;
+}
+
+
+
+
+
+#settings{
+margin: auto;
+width: 93%;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 15px;
+background-color: #8d8d8d;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 8px;
+padding-top: 10px;
+padding-bottom: 8px;
+box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-moz-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+-webkit-box-shadow: rgba(0,0,0, 0.2) 0px 0px 5px;
+}
+
+#copy{
+margin-top: auto;
+width: 100%;
+text-align: center;
+margin-bottom:10px;
+color: #ffffff;
+}
+
+#copy a{
+color: #ffffff;
+}
+
+
+
+
+
+
+	
+
+a:active {  color: #565656; text-decoration: none}
+a:hover {  color: #565656; text-decoration : none}
+a:link {  color: #565656; text-decoration: none}
+a:visited {  color: #565656; text-decoration: none}

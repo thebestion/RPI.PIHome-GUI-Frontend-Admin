@@ -1,0 +1,3 @@
+ErrorDocument 403 /
+ErrorDocument 404 /
+ErrorDocument 500 /
